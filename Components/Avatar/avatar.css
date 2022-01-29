@@ -1,0 +1,52 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+.avatar {
+    
+  --size: 5rem;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.avatar-inset{
+    box-shadow: var(--normal-inset-shadow);
+}
+
+.avatar-inside{
+    width: calc(var(--size) - 1rem);
+    height: calc(var(--size) - 1rem);
+}
+
+.avatar-img {
+  width: calc(var(--size) - 1rem);
+  height: calc(var(--size) - 1rem);
+  border-radius: inherit;
+}
+
+.avatar-img-inner{
+    width: calc(var(--size) - 2rem);
+    height: calc(var(--size) - 2rem);
+    border-radius: inherit;
+}
+
+/* Different Sizes  */
+
+.sm{
+    --size:3rem;
+}
+.md{
+    --size:4rem;
+}
+
+.lg{
+    --size:5rem;
+}
+
+/* Square Avatars  */
+.square {
+    border-radius: 5px;
+}

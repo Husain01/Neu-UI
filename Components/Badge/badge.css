@@ -1,0 +1,59 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+@import url(../Avatar/avatar.css);
+
+.badge{
+    position: relative;
+}
+
+.badge-dot {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    background-color: var(--secondary-color);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+/* For number badge  */
+
+.badge-no{
+    position: absolute;
+    top : 14px;
+    right: 12px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    color: white;
+}
+
+.fas{
+    font-size: 2.5rem;
+}
+
+
+
+/* For colors  */
+
+.online{
+    background-color: var(--online);
+}
+
+.offline{
+    background-color: var(--offline);
+}
+
+.dnd{
+    background-color: var(--dnd);
+}
+
+
+
+
+

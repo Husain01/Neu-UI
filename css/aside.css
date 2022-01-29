@@ -1,0 +1,38 @@
+.content-container{
+    display: flex;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    flex: 0 0 10rem;
+    width: 10rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+
+.side-heading{
+    font-size: 2rem;
+    
+}
+
+.side-heading a{
+    color: var(--primary-color);
+}
+
+.sg-list li{
+    list-style: none;
+    margin: .5rem 0;
+}
+.sg-list li a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: var(--secondary-color);
+    padding-left: .5rem;
+}
+.sg-list li:active, .normal-inset-shadow{
+    box-shadow: var(--normal-inset-shadow);
+    border-radius: 5px;
+}
