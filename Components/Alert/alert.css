@@ -1,0 +1,84 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+.alert-box {
+  flex-direction: column;
+}
+
+.alert {
+  width: 100%;
+  color: var(--bg-color);
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  opacity: 0.8;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.success {
+  background-color: var(--success-color);
+}
+
+.error {
+  background-color: var(--error-color);
+}
+
+.warning {
+  background-color: var(--warning-color);
+}
+
+.simple-primary {
+  color: var(--primary-color);
+}
+
+.simple-success {
+  color: var(--success-color);
+}
+
+.simple-error {
+  color: var(--error-color);
+}
+
+.simple-warning {
+  color: var(--warning-color);
+}
+
+.outline-primary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.outline-success {
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
+}
+
+.outline-error {
+  color: var(--error-color);
+  border: 1px solid var(--error-color);
+}
+
+.outline-warning {
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}
+
+.alert-inset {
+  box-shadow: var(--normal-inset-shadow);
+}
+
+iframe body{
+    scrollbar-width: 0;
+    -ms-overflow-style: none;
+}
+
+iframe body::-webkit-scrollbar{
+    display: none;
+}
+iframe html::-webkit-scrollbar{
+    width: 0;
+    scrollbar-width: 0;
+}
