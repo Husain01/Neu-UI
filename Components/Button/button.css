@@ -172,3 +172,13 @@
 .simple-icon:active{
     box-shadow: var(--normal-inset-shadow);
 }
+
+/* Floating Buttons  */
+
+.btn-floating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 50%;
+}
