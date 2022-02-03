@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="button.css" />
+    <title>Button | Neu UI</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <div class="logo">
+          <a href="../../index.html" class="logo-link">
+            <img src="../../assets/Neu UI.png" alt="" />
+          </a>
+        </div>
+        <nav class="links">
+          <ul>
+            <li><a href="#" class="normal-text-shadow">Docs</a></li>
+            <li><a href="#" class="normal-text-shadow">GitHub</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content-container">
+        <aside class="aside">
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html"
+              >Get Started</a
+            >
+          </div>
+          <ul class="sg-list">
+            <li>
+              <a href="../../Style Guide/Introduction/introduction.html"
+                >Introduction</a
+              >
+            </li>
+            <li><a href="../Colors/colors.html">Colors</a></li>
+            <li><a href="../Typography/typography.html">Typography</a></li>
+            <li><a href="../Conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html">Components</a>
+          </div>
+          <ul class="sg-list">
+            <li>
+              <a href="../Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/alert.html">Alert</a>
+            </li>
+            <li><a href="../Badge/badge.html">Badge</a></li>
+            <li class="normal-inset-shadow">
+              <a href="../Button/button.html">Button</a>
+            </li>
+            <li><a href="../Conclusion/conclusion.html">Card</a></li>
+            <li><a href="../Conclusion/conclusion.html">Image</a></li>
+            <li><a href="../Conclusion/conclusion.html">Input</a></li>
+          </ul>
+        </aside>
+        <main class="main-content">
+          <article class="button-article">
+            <h1 class="button-title">Button</h1>
+            <p class="button-content">
+              Buttons are the soul of an interactive Web Application. Buttons
+              allow users to take actions, and make choices, with a single tap.
+            </p>
+          </article>
+          <div class="divider"></div>
+          <article class="button-article">
+            <h1 class="button-title">Contained Buttons</h1>
+            <p class="button-content">
+              Contained buttons are high-emphasis, distinguished by their use of
+              elevation and fill. They contain actions that are primary to your
+              app.
+            </p>
+            <div class="example-div">
+              <!-- Using the 'btn' class followed by 'btn-variant' -->
+              <button class="btn normal-shadow">Default</button>
+              <button class="btn btn-primary normal-shadow">Primary</button>
+              <button class="btn btn-secondary normal-shadow">Secondary</button>
+              <button class="btn btn-delete normal-shadow">Delete</button>
+              <button class="btn btn-disabled normal-shadow">Disabled</button>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27btn-variant%27%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520normal-shadow%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520normal-shadow%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520normal-shadow%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-delete%2520normal-shadow%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-disabled%2520normal-shadow%2522%253EDisabled%253C%252Fbutton%253E"
+                style="
+                  width: 100%;
+                  height: 187px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <article class="button-article">
+            <h1 class="button-title">Simple Buttons</h1>
+            <p class="button-content">
+              In need of a button, but not the hefty background colors they
+              bring? Replace '.btn-variant' with '.simple-variant'.
+            </p>
+            <div class="example-div">
+              <!-- Using the 'btn' class followed by 'simple-variant' -->
+              <button class="btn simple normal-shadow">Default</button>
+              <button class="btn simple simple-primary normal-shadow">
+                Primary
+              </button>
+              <button class="btn simple simple-secondary normal-shadow">
+                Secondary
+              </button>
+              <button class="btn simple simple-delete normal-shadow">
+                Delete
+              </button>
+              <button class="btn simple simple-disabled normal-shadow">
+                Disabled
+              </button>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27simple-variant%27%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520simple%2520normal-shadow%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520simple%2520simple-primary%2520normal-shadow%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520simple%2520simple-secondary%2520normal-shadow%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520simple%2520simple-delete%2520normal-shadow%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520simple%2520simple-disabled%2520normal-shadow%2522%253EDisabled%253C%252Fbutton%253E"
+                style="
+                  width: 100%;
+                  height: 187px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <articlle class="button-article">
+            <h1 class="button-title">Link Button</h1>
+            <p class="button-content">
+              Want to attach a link action, at a button tap? Use Link Button
+            </p>
+            <div class="example-div">
+              <!-- Using the 'btn' class followed by 'btn-link' -->
+              <button class="btn btn-link normal-shadow">
+                <a href="">Link</a>
+              </button>
+              <!-- Using the 'btn' class followed by 'simple simple-link' -->
+              <button class="btn simple simple-link normal-shadow">
+                <a href="">Link</a>
+              </button>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27btn-link%27%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520%2520btn-link%2520normal-shadow%2522%253E%253Ca%2520href%253D%2522%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%250A%253C%21--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27simple%2520simple-link%27%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520simple%2520simple-link%2520normal-shadow%2522%253E%253Ca%2520href%253D%2522%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%2520%250A"
+                style="
+                  width: 100%;
+                  height: 154px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </articlle>
+          <article class="button-article">
+            <h1 class="button-title">Icon Button</h1>
+            <p class="button-content">
+              Icon Buttons can be created, by using a SVGor i tags as a child to
+              parent button. Use the 'btn' class followed by 'simple btn-icon'.
+            </p>
+            <div class="example-div">
+              <!-- Using the 'btn' class followed by 'btn-icon' -->
+              <button class="btn btn-icon normal-shadow">
+                <i class="far fa-save"></i>Save
+              </button>
+              <!-- Using the 'btn' class followed by 'btn-icon simple-icon' -->
+              <button class="btn btn-icon simple-icon normal-shadow">
+                <i class="far fa-save"></i> Save
+              </button>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27btn-icon%27%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520normal-shadow%2522%253E%250A%2509%253Ci%2520class%253D%2522far%2520fa-save%2522%253E%253C%252Fi%253ESave%250A%253C%252Fbutton%253E%250A%253C%21--%2520Using%2520the%2520%27btn%27%2520class%2520followed%2520by%2520%27btn-icon%2520simple-icon%27%2520--%253E%2520%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520simple-icon%2520normal-shadow%2522%253E%250A%2509%253Ci%2520class%253D%2522far%2520fa-save%2522%253E%253C%252Fi%253E%2520Save%250A%253C%252Fbutton%253E%250A"
+                style="
+                  width: 100%;
+                  height: 226px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <article class="button-article">
+            <h1 class="button-title">Floating Action Button</h1>
+            <p class="button-content">
+              Icons are also appropriate for toggle buttons that allow a single
+              choice to be selected or deselected, such as adding or removing a
+              star to an item.
+            </p>
+            <div class="example-div">
+              <!-- Using btn-floating class with existing btn classes to achieve the look  -->
+              <button class="btn btn-primary btn-floating normal-shadow">
+                <i class="far fa-trash-alt"></i>
+              </button>
+              <button
+                class="btn simple simple-primary btn-floating normal-shadow"
+              >
+                <i class="far fa-trash-alt"></i>
+              </button>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520btn-floating%2520class%2520with%2520existing%2520btn%2520classes%2520to%2520achieve%2520the%2520look%2520%2520--%253E%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating%2520normal-shadow%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520simple%2520simple-primary%2520btn-floating%2520normal-shadow%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+                style="
+                  width: 100%;
+                  height: 208px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <footer class="footer">
+            <div class="prev-comp">
+              <a href="../Badge/badge.html">&lt; Badge</a>
+            </div>
+            <div class="next-comp">
+              <a href="../Card/card.html">Card &gt;</a>
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/d7895d1006.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
