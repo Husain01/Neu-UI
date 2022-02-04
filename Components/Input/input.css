@@ -1,0 +1,34 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.5rem;
+}
+
+.form-group label{
+    display: block;
+    line-height: 1.5rem;
+}
+
+.form-group input{
+    background-color: transparent;
+    border: none;
+    box-shadow: var(--normal-inset-shadow);
+    width: 25rem;
+    border-radius: 5px;
+    outline: none;
+    padding:.3rem .7rem;
+    font-size: 1.5rem;
+}
+
+.success{
+    color: var(--online);
+}
+
+.err{
+    color: var(--dnd);
+}
