@@ -1,0 +1,11 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+.typo-div{
+    flex-direction: column;
+}
+
+.font-link{
+    color: var(--active-color);
+    cursor: pointer;
+}

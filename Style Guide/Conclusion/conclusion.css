@@ -1,0 +1,7 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+.github-link a{
+    font-size: 2rem;
+    color: var(--active-color);
+}
