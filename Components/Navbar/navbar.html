@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navbar.css" />
+    <title>Navbar | Neu UI</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <div class="logo">
+          <a href="../../index.html" class="logo-link">
+            <img src="../../assets/Neu UI.png" alt="" />
+          </a>
+        </div>
+        <nav class="links">
+          <ul>
+            <li><a href="#" class="normal-text-shadow">Docs</a></li>
+            <li><a href="#" class="normal-text-shadow">GitHub</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content-container">
+        <aside class="aside">
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html"
+              >Get Started</a
+            >
+          </div>
+          <ul class="sg-list">
+            <li>
+              <a href="../../Style Guide/Introduction/introduction.html"
+                >Introduction</a
+              >
+            </li>
+            <li><a href="../../Style Guide/Colors/colors.html">Colors</a></li>
+            <li>
+              <a href="../../Style Guide/Typography/typography.html"
+                >Typography</a
+              >
+            </li>
+            <li>
+              <a href="../../Style Guide/Conclusion/conclusion.html"
+                >Conclusion</a
+              >
+            </li>
+          </ul>
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html">Components</a>
+          </div>
+          <ul class="sg-list">
+            <li>
+              <a href="../Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/alert.html">Alert</a>
+            </li>
+            <li><a href="../Badge/badge.html">Badge</a></li>
+            <li>
+              <a href="../Button/button.html">Button</a>
+            </li>
+            <li><a href="../Card/card.html">Card</a></li>
+            <li>
+              <a href="../Image/image.html">Image</a>
+            </li>
+            <li>
+              <a href="../Input/input.html">Input</a>
+            </li>
+            <li class="normal-inset-shadow">
+              <a href="../Navbar/navbar.html">Navbar</a>
+            </li>
+          </ul>
+        </aside>
+        <main class="main-content">
+          <article class="navbar-article">
+            <h1 class="navbar-title">Navigation Bar</h1>
+            <p class="navbar-content">
+              Navigation bars offer a persistent and convenient way to switch
+              between primary destinations in an app.
+            </p>
+          </article>
+          <div class="divider"></div>
+          <article class="navbar-article">
+            <h1 class="navbar-title">Simple Navbar</h1>
+            <p class="navbar-content">
+              This is an example of a simple navbar for desktop.
+            </p>
+            <div class="example-div">
+              <header class="navbar">
+                <div class="logo">
+                  <img src="../../assets/Neu UI.png" alt="" />
+                </div>
+                <div class="search">
+                  <i class="fas fa-search"></i>
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="Search"
+                  />
+                </div>
+                <div class="links">
+                  <button class="btn btn-primary btn-login normal-shadow">
+                    Login
+                  </button>
+                  <div class="badge">
+                    <button
+                      class="btn simple simple-primary btn-floating avatar sm normal-shadow"
+                    >
+                      <i class="far fa-heart"></i>
+                    </button>
+                    <div class="badge-no dnd">9+</div>
+                  </div>
+                  <div class="badge">
+                    <button
+                      class="btn simple simple-primary btn-floating avatar sm normal-shadow"
+                    >
+                      <i class="fas fa-cart-plus"></i>
+                    </button>
+                    <div class="badge-no dnd">9+</div>
+                  </div>
+                </div>
+              </header>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522logo%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252FNeu%2520UI.png%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522search-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Search%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522links%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-login%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520Login%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520simple%2520simple-primary%2520btn-floating%2520avatar%2520sm%2520normal-shadow%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-no%2520dnd%2522%253E9%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520simple%2520simple-primary%2520btn-floating%2520avatar%2520sm%2520normal-shadow%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-no%2520dnd%2522%253E9%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E%250A"
+                style="
+                  width: 100%;
+                  height: 694px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <footer class="footer">
+            <div class="prev-comp">
+                <a href="../Input/input.html">&lt; Input</a>
+            </div>
+            <div class="next-comp">
+                <a href="../Ratings/ratings.html">Ratings &gt;</a>
+            </div>
+        </footer>
+        </main>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/d7895d1006.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
