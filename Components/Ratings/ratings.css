@@ -1,0 +1,10 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+.fa-star{
+    font-size: 2rem;
+}
+
+.fas{
+    color: var(--active-color);
+}
