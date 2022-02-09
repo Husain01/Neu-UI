@@ -1,0 +1,26 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+.toast{
+    padding:.5rem 1rem;
+    min-width: 20rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.toast h5{
+    line-height: 2.5rem;
+}
+
+.toast p {
+    line-height: 2rem;
+}
+
+.fa-times{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    text-shadow: 10px 10px 20px #8caeb5, -10px -10px 20px #beecf5;
+}
