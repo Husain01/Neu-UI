@@ -16,7 +16,7 @@
     line-height: 2rem;
 }
 
-.fa-times{
+.toast .fa-times{
     position: absolute;
     top: .5rem;
     right: 1rem;

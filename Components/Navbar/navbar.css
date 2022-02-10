@@ -39,7 +39,7 @@
       font-size: 1rem;
   }
 
-  .links{
+  .nav-links{
       display: flex;
       width: 14rem;
       justify-content: space-around;
@@ -59,3 +59,30 @@
     top: 4px;
     right: 4px;
 }
+
+.hamburger{
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width:768px){
+    .nav-links{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .fa-bars{
+        font-size: 1.5rem;
+    }
+    .search{
+        display: none;
+    }
+
+    .logo img{
+        width: 10rem;
+    }
+}
+

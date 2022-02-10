@@ -1,6 +1,6 @@
 .content-container{
     display: flex;
-    margin: 0 1.5rem;
+    padding: 0 1.5rem;
 }
 
 .aside{
@@ -36,4 +36,45 @@
 .sg-list li:active, .normal-inset-shadow{
     box-shadow: var(--normal-inset-shadow);
     border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .content-container{
+        display: block;
+    }
+
+    .aside-container{
+        display: none;
+    }
+
+    .aside{
+        display: none;
+        width: calc(100% - 2.5rem);
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        height: calc(100vh - 6rem); 
+        overflow: auto;
+        background: var(--bg-color);
+        top: 6rem;
+        left: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .show{
+        display: flex;
+    }
+
+    .body-overflow{
+        overflow: hidden;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px) {
+
+.aside{
+    font-size: 2rem;
+  }
 }
