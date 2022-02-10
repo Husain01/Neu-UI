@@ -1,134 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="avatar.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="avatar.css" />
     <title>Avatar | Neu UI</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-container">
-        <header class="header ">
-            <div class="logo">
-                <a href="../../index.html" class="logo-link">
-                <img src="../../assets/Neu UI.png" alt="">
-            </a>
+      <header class="header">
+        <div class="logo">
+          <a href="../../index.html" class="logo-link">
+            <img src="../../assets/Neu UI.png" alt="" />
+          </a>
+        </div>
+        <nav class="links">
+          <ul>
+            <li><a href="#" class="normal-text-shadow">Docs</a></li>
+            <li><a href="#" class="normal-text-shadow">GitHub</a></li>
+            <div class="badge hamburger">
+              <button
+                class="hamburger-btn normal-shadow"
+              >
+              <i class="fas fa-bars"></i>
+              </button>
             </div>
-            <nav class="links">
-                <ul>
-                    <li> <a href="#" class="normal-text-shadow">Docs</a> </li>
-                    <li><a href="#" class="normal-text-shadow">GitHub</a> </li>
-                </ul>
-            </nav>
-        </header>
-        <div class="content-container">
+          </ul>
+        </nav>
+      </header>
+      <div class="content-container">
         <aside class="aside">
-            <div class="style-guide side-heading">
-                <a href="/Style Guide/Introduction/introduction.html">Get Started</a>
-            </div>
-            <ul class="sg-list">
-                <li ><a href="../../Style Guide/Introduction/introduction.html">Introduction</a></li>
-                <li><a href="../../Style Guide/Colors/colors.html">Colors</a></li>
-                <li><a href="../../Style Guide/Typography/typography.html">Typography</a></li>
-                <li><a href="../../Style Guide/Conclusion/conclusion.html">Conclusion</a></li>
-            </ul>
-            <div class="style-guide side-heading">
-                <a href="/Style Guide/Introduction/introduction.html">Components</a>
-            </div>
-            <ul class="sg-list">
-                <li class="normal-inset-shadow"><a href="../Introduction/introduction.html">Avatar</a></li>
-                <li><a href="../Alert/alert.html">Alert</a></li>
-                <li><a href="../Badge/badge.html">Badge</a></li>
-                <li><a href="../Button/button.html">Button</a></li>
-                <li><a href="../Card/card.html">Card</a></li>
-                <li><a href="../Image/image.html">Image</a></li>
-                <li><a href="../Input/input.html">Input</a></li>
-            </ul>
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html"
+              >Get Started</a
+            >
+          </div>
+          <ul class="sg-list">
+            <li>
+              <a href="../../Style Guide/Introduction/introduction.html"
+                >Introduction</a
+              >
+            </li>
+            <li><a href="../../Style Guide/Colors/colors.html">Colors</a></li>
+            <li>
+              <a href="../../Style Guide/Typography/typography.html"
+                >Typography</a
+              >
+            </li>
+            <li>
+              <a href="../../Style Guide/Conclusion/conclusion.html"
+                >Conclusion</a
+              >
+            </li>
+          </ul>
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html">Components</a>
+          </div>
+          <ul class="sg-list">
+            <li class="normal-inset-shadow">
+              <a href="../Introduction/introduction.html">Avatar</a>
+            </li>
+            <li><a href="../Alert/alert.html">Alert</a></li>
+            <li><a href="../Badge/badge.html">Badge</a></li>
+            <li><a href="../Button/button.html">Button</a></li>
+            <li><a href="../Card/card.html">Card</a></li>
+            <li><a href="../Image/image.html">Image</a></li>
+            <li><a href="../Input/input.html">Input</a></li>
+            <li><a href="../Navbar/navbar.html">Navbar</a></li>
+            <li><a href="../Ratings/ratings.html">Ratings</a></li>
+            <li><a href="../Toast/toast.html">Toast</a></li>
+          </ul>
         </aside>
         <main class="main-content">
-            <article class="avatar-article">
-                <h1 class="avatar-title">Avatar</h1>
-                <p class="avatar-content">Avatars are user profile pictures, usually found in circular shapes. Avatars can be used for 'container' objects — projects, spaces, repositories, etcetera — to give them a recognisable visual identity.
-                </p>
-            </article>
-            <div class="divider"></div>
-            <article class="avatar-article">
-                <h1 class="avatar-title">Profile Avatar</h1>
-                <p class="avatar-content">Profile Avatars can be created using the class 'avatar' on the outer div, and an img tag inside it with a class 'avatar-img'. To have an inset avatar, remove the normal-shadow and use the class 'avatar-inset' on the outer div. To have a combo avatar, you need 2 divs, the outer div will have the additional class 'avatar-inset' while the inner div will have the additional class 'avatar-inside' and put a class 'avatar-img-inner' in the img.
-                </p>
-                <div class="example-div">
-                    <!-- For normal Avatar -->
-                    <div class="avatar normal-shadow"><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    <!-- For inset Avatar -->
-                    <div class="avatar avatar-inset "><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    <!-- For Combo Avatar  -->
-                    <div class="avatar  avatar-inset"><div class="avatar avatar-inside normal-shadow"><img src="../../assets/avatar.jpg" alt="" class="avatar-img avatar-img-inner"></div></div>
+          <article class="avatar-article">
+            <h1 class="avatar-title">Avatar</h1>
+            <p class="avatar-content">
+              Avatars are user profile pictures, usually found in circular
+              shapes. Avatars can be used for 'container' objects — projects,
+              spaces, repositories, etcetera — to give them a recognisable
+              visual identity.
+            </p>
+          </article>
+          <div class="divider"></div>
+          <article class="avatar-article">
+            <h1 class="avatar-title">Profile Avatar</h1>
+            <p class="avatar-content">
+              Profile Avatars can be created using the class 'avatar' on the
+              outer div, and an img tag inside it with a class 'avatar-img'. To
+              have an inset avatar, remove the normal-shadow and use the class
+              'avatar-inset' on the outer div. To have a combo avatar, you need
+              2 divs, the outer div will have the additional class
+              'avatar-inset' while the inner div will have the additional class
+              'avatar-inside' and put a class 'avatar-img-inner' in the img.
+            </p>
+            <div class="example-div">
+              <!-- For normal Avatar -->
+              <div class="avatar normal-shadow">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+              <!-- For inset Avatar -->
+              <div class="avatar avatar-inset">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+              <!-- For Combo Avatar  -->
+              <div class="avatar avatar-inset">
+                <div class="avatar avatar-inside normal-shadow">
+                  <img
+                    src="../../assets/avatar.jpg"
+                    alt=""
+                    class="avatar-img avatar-img-inner"
+                  />
                 </div>
-                <div class="code-snippet">
-                    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253C%21--%2520For%2520normal%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2509%2509%2509%2509%2509%253C%21--%2520For%2520inset%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-inset%2520%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Combo%2520Avatar%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520%2520avatar-inset%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-inside%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2520avatar-img-inner%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 100%; height: 349px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-                </div>
-                
-            </article>
-            
-            <article class="avatar-article">
-                <h1 class="avatar-title">
-                    Avatar Sizing
-                </h1>
-                <p class="avatar-content"> Size of the avatars can be changed by adding sm | md | lg class to the existing avatar class in the outer div.
-                </p>
-                <div class="example-div">
-                    <!-- For Small Avatar -->
-                    <div class="avatar normal-shadow sm"><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    <!-- For Medium Avatar -->
-                    <div class="avatar normal-shadow md"><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    <!-- For Large Avatar -->
-                    <div class="avatar normal-shadow lg"><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    
-                </div>
-                <div class="code-snippet">
-                    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253C%21--%2520For%2520Small%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520sm%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Medium%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520md%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Large%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520lg%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 100%; height: 314px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-                </div>
-            </article>
-            <article class="avatar-article">
-                <h1 class="avatar-title">
-                    Square Avatar
-                </h1>
-                <p class="avatar-content"> Adding a class 'square' to the outer div where avatar class is defined, will generate a square shaped avatar.
-                </p>
-                <div class="example-div">
-                    <!-- For Square Avatar -->
-                    <div class="avatar normal-shadow sm square"><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    <div class="avatar normal-shadow md square"><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    <div class="avatar normal-shadow lg square"><img src="../../assets/avatar.jpg" alt="" class="avatar-img"></div>
-                    
-                </div>
-                <div class="code-snippet">
-                    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2520%2520%253C%21--%2520For%2520Square%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520sm%2520square%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520md%2520square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520lg%2520square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 100%; height: 277px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-                </div>
-            </article>
-            <footer class="footer">
-                <div class="prev-comp">
-                    <a href="../../Style Guide/Conclusion/conclusion.html">&lt; Conclusion</a>
-                </div>
-                <div class="next-comp">
-                    <a href="../Alert/alert.html">Alert &gt;</a>
-                </div>
-            </footer>
+              </div>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253C%21--%2520For%2520normal%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2509%2509%2509%2509%2509%253C%21--%2520For%2520inset%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-inset%2520%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Combo%2520Avatar%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520%2520avatar-inset%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-inside%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2520avatar-img-inner%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: 349px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="avatar-article">
+            <h1 class="avatar-title">Avatar Sizing</h1>
+            <p class="avatar-content">
+              Size of the avatars can be changed by adding sm | md | lg class to
+              the existing avatar class in the outer div.
+            </p>
+            <div class="example-div">
+              <!-- For Small Avatar -->
+              <div class="avatar normal-shadow sm">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+              <!-- For Medium Avatar -->
+              <div class="avatar normal-shadow md">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+              <!-- For Large Avatar -->
+              <div class="avatar normal-shadow lg">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253C%21--%2520For%2520Small%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520sm%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Medium%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520md%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Large%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520lg%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: 314px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <article class="avatar-article">
+            <h1 class="avatar-title">Square Avatar</h1>
+            <p class="avatar-content">
+              Adding a class 'square' to the outer div where avatar class is
+              defined, will generate a square shaped avatar.
+            </p>
+            <div class="example-div">
+              <!-- For Square Avatar -->
+              <div class="avatar normal-shadow sm square">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+              <div class="avatar normal-shadow md square">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+              <div class="avatar normal-shadow lg square">
+                <img src="../../assets/avatar.jpg" alt="" class="avatar-img" />
+              </div>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2520%2520%253C%21--%2520For%2520Square%2520Avatar%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520sm%2520square%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520md%2520square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520lg%2520square%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: 277px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <footer class="footer">
+            <div class="prev-comp">
+              <a href="../../Style Guide/Conclusion/conclusion.html"
+                >&lt; Conclusion</a
+              >
+            </div>
+            <div class="next-comp">
+              <a href="../Alert/alert.html">Alert &gt;</a>
+            </div>
+          </footer>
         </main>
-        </div>
-        </div>
-</body>
+      </div>
+    </div>
+    <script
+    src="https://kit.fontawesome.com/d7895d1006.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../../index.js"></script>  </body>
 </html>

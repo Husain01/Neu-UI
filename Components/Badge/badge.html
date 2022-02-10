@@ -12,13 +12,20 @@
     <header class="header ">
         <div class="logo">
             <a href="../../index.html" class="logo-link">
-            <img src="../../assets/Neu UI.png" alt="">
-        </a>
+                <img src="../../assets/Neu UI.png" alt="">
+            </a>
         </div>
         <nav class="links">
             <ul>
                 <li> <a href="#" class="normal-text-shadow">Docs</a> </li>
                 <li><a href="#" class="normal-text-shadow">GitHub</a> </li>
+                <div class="badge hamburger">
+                    <button
+                      class="hamburger-btn normal-shadow"
+                    >
+                    <i class="fas fa-bars"></i>
+                    </button>
+                  </div>
             </ul>
         </nav>
     </header>
@@ -28,7 +35,7 @@
                 <a href="/Style Guide/Introduction/introduction.html">Get Started</a>
             </div>
             <ul class="sg-list">
-                <li ><a href="../../Style Guide/Introduction/introduction.html">Introduction</a></li>
+                <li><a href="../../Style Guide/Introduction/introduction.html">Introduction</a></li>
                 <li><a href="../../Style Guide/Colors/colors.html">Colors</a></li>
                 <li><a href="../../Style Guide/Typography/typography.html">Typography</a></li>
                 <li><a href="../../Style Guide/Conclusion/conclusion.html">Conclusion</a></li>
@@ -44,6 +51,9 @@
                 <li><a href="../Card/card.html">Card</a></li>
                 <li><a href="../Image/image.html">Image</a></li>
                 <li><a href="../Input/input.html">Input</a></li>
+                <li><a href="../Navbar/navbar.html">Navbar</a></li>
+                <li><a href="../Ratings/ratings.html">Ratings</a></li>
+                <li><a href="../Toast/toast.html">Toast</a></li>
             </ul>
         </aside>
         <main class="main-content">
@@ -81,15 +91,16 @@
                 </div>
                 <div class="code-snippet">
                     <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253C%21--%2520For%2520Online%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%2520%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-dot%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Offline%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%2520%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-dot%2520offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520DND%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%2520%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-dot%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 100%; height: 475px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253C%21--%2520For%2520Online%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%2520%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-dot%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520Offline%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%2520%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-dot%2520offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520For%2520DND%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar-img%2522%253E%2520%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-dot%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 100%; height: 475px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </article>
             <article class="badge-article">
                 <h1 class="badge-title">Number Badge</h1>
-                <p class="badge-content">Number Badge is used to show the no. of items present in the parent component. add class 'badge-no' to the div.
+                <p class="badge-content">Number Badge is used to show the no. of items present in the parent component.
+                    add class 'badge-no' to the div.
                 </p>
                 <div class="example-div">
                     <!-- for Number Badge  -->
@@ -106,10 +117,10 @@
                 </div>
                 <div class="code-snippet">
                     <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%253C%21--%2520for%2520Number%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-no%2522%253E100%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-no%2520dnd%2522%253E9%252B%253C%252Fdiv%253E%2520%250A%253C%252Fdiv%253E%250A"
-  style="width: 100%; height: 349px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=371.79999256134033&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2520%2520%253C%21--%2520for%2520Number%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%2520%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-no%2522%253E100%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520normal-shadow%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522badge-no%2520dnd%2522%253E9%252B%253C%252Fdiv%253E%2520%250A%253C%252Fdiv%253E%250A"
+                        style="width: 100%; height: 349px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </article>
             <footer class="footer">
@@ -124,6 +135,7 @@
     </div>
 </div>
 <script src="https://kit.fontawesome.com/d7895d1006.js" crossorigin="anonymous"></script>
+    <script src="../../index.js"></script>
 </body>
 
 </html>

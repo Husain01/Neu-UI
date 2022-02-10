@@ -99,7 +99,7 @@ body {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 0;
+  padding: 1.5rem;
   margin-bottom: 4rem;
 }
 
@@ -191,6 +191,7 @@ body {
   margin: 1rem 0;
   padding: 2rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -206,4 +207,79 @@ body {
 .footer a {
   font-size: 2rem;
   cursor: pointer;
+}
+
+.hamburger{
+  display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px){
+  
+  .links ul li{
+      display: none;
+  }
+
+  .logo img{
+    width: 10rem;
+  }
+
+  .header{
+    margin-bottom: 1rem;
+    position: relative;
+  }
+
+  .hamburger{
+    display: block;
+}
+
+.main h1, .main p{
+  width: 100%;
+  padding: 0 1rem;
+}
+
+  .fa-times, .fa-bars{
+    font-size: 1.5rem;
+}
+
+.hamburger-btn .fas{
+  color: var(--primary-color);
+}
+
+.hamburger-btn{
+  width: 3rem;
+  height: 3rem;
+  outline: none;
+  border: none;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--primary-color);
+}
+
+.hamburger-btn:hover{
+  border: 1px solid var(--primary-color);
+}
+
+.hamburger-btn:active{
+  box-shadow: var(--normal-inset-shadow);
+}
+}
+
+@media screen and (max-width: 480px){
+  :root{
+    font-size: 75%;
+  }
+
+  
+
+  .example-div{
+    padding: 1rem;
+  }
+
+  h1{
+    font-size: 4.5rem;
+  }
 }
