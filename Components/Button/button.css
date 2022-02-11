@@ -15,8 +15,7 @@
 }
 
 .btn:active{
-    box-shadow:  inset 5px 5px 10px #2e2e2e,
-    inset -5px -5px 10px #3e3e3e;
+    box-shadow:  var(--default-inset-shadow)
 }
 
 .btn-primary {
@@ -24,8 +23,7 @@
 }
 
 .btn-primary:active{
-    box-shadow:  inset 5px 5px 10px #001326,
-    inset -5px -5px 10px  #002b58;
+    box-shadow:  var(--primary-inset-shadow);
 }
 
 .btn-secondary{
@@ -33,8 +31,7 @@
 }
 
 .btn-secondary:active{
-    box-shadow:  inset 5px 5px 10px #003162,
-    inset -5px -5px 10px #005bb6;
+    box-shadow:  var(--secondary-inset-shadow);
 }
 
 .btn-disabled{
@@ -43,8 +40,7 @@
 }
 
 .btn-disabled:active{
-    box-shadow:  inset 5px 5px 10px #2e2e2e,
-    inset -5px -5px 10px #3e3e3e;
+    box-shadow:  var(--default-inset-shadow);
 }
 
 .btn-delete{
@@ -52,8 +48,7 @@
 }
 
 .btn-delete:active{
-    box-shadow:  inset 5px 5px 10px #350806,
-    inset -5px -5px 10px #63100c;
+    box-shadow:  var(--error-inset-shadow);
 }
 
 /* For Simple Button  */
@@ -120,8 +115,7 @@
 }
 
 .btn-link:active{
-    box-shadow:  inset 5px 5px 10px #003162,
-    inset -5px -5px 10px #005bb6;
+    box-shadow:  var(--secondary-inset-shadow);
 }
 
 .simple-link{

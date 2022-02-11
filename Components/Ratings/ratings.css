@@ -5,6 +5,6 @@
     font-size: 2rem;
 }
 
-.fas{
+.ratings-wrapper .fas{
     color: var(--active-color);
 }

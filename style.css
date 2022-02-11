@@ -13,6 +13,14 @@
   --offline: #414141;
   --normal-inset-shadow: inset 5px 5px 10px #8caeb5,
     inset -5px -5px 10px #beecf5;
+    --default-inset-shadow:inset 5px 5px 10px #2e2e2e,
+    inset -5px -5px 10px #3e3e3e;
+    --primary-inset-shadow:inset 5px 5px 10px #001326,
+    inset -5px -5px 10px  #002b58;
+    --secondary-inset-shadow:inset 5px 5px 10px #003162,
+    inset -5px -5px 10px #005bb6;
+    --error-inset-shadow:inset 5px 5px 10px #350806,
+    inset -5px -5px 10px #63100c;
 }
 
 * {
