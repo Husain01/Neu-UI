@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: center;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .cross:active{
@@ -92,6 +93,7 @@
     border-radius: 50%;
     border: none;
     background-color: var(--bg-color);
+    cursor: pointer;
 }
 
 .card-alt-badge{
@@ -122,6 +124,7 @@
     border-radius: 50%;
     border: none;
     background-color: var(--bg-color);
+    cursor: pointer;
 }
 
 .alt-wishlist .fa-heart{
@@ -175,6 +178,7 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .cart:active{
