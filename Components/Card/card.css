@@ -51,7 +51,6 @@
     display: flex;
     overflow: hidden;
     border-radius: 10px;
-    z-index: 1;
     align-items: center;
     justify-content: center;
 }
@@ -109,7 +108,7 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color: var(--primary-color);
-
+    background-color: var(--bg-color);
 }
 
 .alt-wishlist{
