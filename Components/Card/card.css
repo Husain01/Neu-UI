@@ -144,6 +144,10 @@
     height: 12rem;
 }
 
+.card-footer-hr{
+    height: auto;
+}
+
 .product-content{
     margin-bottom: 2rem;
 }
