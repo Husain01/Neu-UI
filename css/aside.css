@@ -25,6 +25,7 @@
 .sg-list li{
     list-style: none;
     margin: .5rem 0;
+    border-radius: 5px;
 }
 .sg-list li a{
     display: inline-block;
@@ -35,7 +36,7 @@
 }
 .sg-list li:active, .normal-inset-shadow{
     box-shadow: var(--normal-inset-shadow);
-    border-radius: 5px;
+    
 }
 
 @media screen and (max-width: 768px){
