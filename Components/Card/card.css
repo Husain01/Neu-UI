@@ -84,7 +84,7 @@
 
 .wishlist{
     height: 2rem;
-    width: 2rem;
+    min-width: 2rem;
     margin-left: auto;
     display: flex;
     align-items: center;
