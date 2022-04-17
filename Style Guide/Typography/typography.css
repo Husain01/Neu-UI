@@ -9,3 +9,15 @@
     color: var(--active-color);
     cursor: pointer;
 }
+
+.sm-text{
+    font-size: 1rem;
+}
+
+.gray-text{
+    color: lightslategray;
+}
+
+.center-text{
+    text-align: center;
+}
