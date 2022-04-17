@@ -1,0 +1,33 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+@import url(../../Style\ Guide/Typography/typography.css);
+
+.list-group{
+    border: 1px solid gray;
+    border-radius: .5rem;
+    min-width: 325px;
+}
+
+.list-item{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    list-style: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.list-item:hover{
+    background-color: var(--active-color);
+    color: var(--bg-color);
+    border-radius: .5rem;
+}
+
+.list-item:hover>*,.list-item:hover>*>*{
+    color: var(--bg-color);
+}
+
+.list-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
