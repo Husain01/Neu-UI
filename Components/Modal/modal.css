@@ -1,0 +1,23 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+@import url(../Button/button.css);
+
+.modal{
+    padding: 1rem ;
+    border-radius: 5px;
+}
+
+.modal p{
+    font-size: 1.5rem;
+}
+
+.modal-btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.modal-btns .btn{
+ padding: 0px .5rem;
+}
+
