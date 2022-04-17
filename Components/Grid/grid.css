@@ -1,0 +1,23 @@
+@import url(../../style.css);
+@import url(../../css/aside.css);
+
+.grid{
+    display: grid;
+    width: 100%;
+}
+
+.grid-2{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.colorBox{
+    width: 100%;
+    height: 5rem;
+    border-radius: 5px;
+    background-color: var(--online);
+}
