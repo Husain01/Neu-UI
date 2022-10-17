@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="introduction.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="introduction.css" />
     <title>Introduction to Neu UI</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-container">
-        <header class="header ">
-            <div class="logo">
-                <a href="../../index.html" class="logo-link">
-                <img src="../../assets/Neu UI.png" alt="">
-            </a>
+      <header class="header">
+        <div class="logo">
+          <a href="../../index.html" class="logo-link">
+            <img src="../../assets/Neu UI.png" alt="" />
+          </a>
+        </div>
+        <nav class="links">
+          <ul>
+            <li>
+              <a href="https://neu-ui.vercel.app/" class="normal-text-shadow"
+                >Docs</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Husain01/Neu-UI"
+                class="normal-text-shadow"
+                >GitHub</a
+              >
+            </li>
+            <div class="badge hamburger">
+              <button class="hamburger-btn normal-shadow">
+                <i class="fas fa-bars"></i>
+              </button>
             </div>
-            <nav class="links">
-                <ul>
-                    <li> <a href="#" class="normal-text-shadow">Docs</a> </li>
-                    <li><a href="#" class="normal-text-shadow">GitHub</a> </li>
-                    <div class="badge hamburger">
-                        <button
-                          class="hamburger-btn normal-shadow"
-                        >
-                        <i class="fas fa-bars"></i>
-                        </button>
-                      </div>
-                </ul>
-            </nav>
-        </header>
-        <div class="content-container">
+          </ul>
+        </nav>
+      </header>
+      <div class="content-container">
         <aside class="aside">
-            <div class="style-guide side-heading">
-                <a href="/Style Guide/Introduction/introduction.html">Get Started</a>
-            </div>
-            <ul class="sg-list">
-                <li class="normal-inset-shadow"><a href="../Introduction/introduction.html">Introduction</a></li>
-                <li><a href="../Colors/colors.html">Colors</a></li>
-                <li><a href="../Typography/typography.html">Typography</a></li>
-                <li><a href="../Conclusion/conclusion.html">Conclusion</a></li>
-            </ul>
-            <div class="style-guide side-heading">
-                <a href="/Components/Avatar/avatar.html">Components</a>
-            </div>
-            <ul class="sg-list">
-                <li><a href="../../Components/Avatar/avatar.html">Avatar</a></li>
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html"
+              >Get Started</a
+            >
+          </div>
+          <ul class="sg-list">
+            <li class="normal-inset-shadow">
+              <a href="../Introduction/introduction.html">Introduction</a>
+            </li>
+            <li><a href="../Colors/colors.html">Colors</a></li>
+            <li><a href="../Typography/typography.html">Typography</a></li>
+            <li><a href="../Conclusion/conclusion.html">Conclusion</a></li>
+          </ul>
+          <div class="style-guide side-heading">
+            <a href="/Components/Avatar/avatar.html">Components</a>
+          </div>
+          <ul class="sg-list">
+            <li><a href="../../Components/Avatar/avatar.html">Avatar</a></li>
             <li><a href="../../Components/Alert/alert.html">Alert</a></li>
             <li><a href="../../Components/Badge/badge.html">Badge</a></li>
             <li><a href="../../Components/Button/button.html">Button</a></li>
@@ -57,41 +69,61 @@
             <li><a href="../../Components/Lists/lists.html">Lists</a></li>
             <li><a href="../../Components/Modal/modal.html">Modal</a></li>
             <li><a href="../../Components/Grid/grid.html">Grid</a></li>
-            </ul>
+          </ul>
         </aside>
         <main class="main-content">
-            <article class="intro">
-                <h1 class="intro-title">Introduction to Neu UI</h1>
-                <p class="intro-content">Neu UI is an open source component  library, which helps Developers to use best Neumorphic styles and components, by using pre-defined classnames. Neu UI helps you to quickly build your Dream Project, by focusing much on Functionality, because we take care of your Designs.
-                </p>
-            </article>
-            <article class="install">
-                <h1 class="install-title">Installation Guide</h1>
-                <p class="install-content">In order to introduce Neu UI to your project, Copy the Link given below and paste it in the <head> tag of your html, above all other style sheets.
-                </p>
+          <article class="intro">
+            <h1 class="intro-title">Introduction to Neu UI</h1>
+            <p class="intro-content">
+              Neu UI is an open source component library, which helps Developers
+              to use best Neumorphic styles and components, by using pre-defined
+              classnames. Neu UI helps you to quickly build your Dream Project,
+              by focusing much on Functionality, because we take care of your
+              Designs.
+            </p>
+          </article>
+          <article class="install">
+            <h1 class="install-title">Installation Guide</h1>
+            <p class="install-content">
+              In order to introduce Neu UI to your project, Copy the Link given
+              below and paste it in the
+              <head>
+                tag of your html, above all other style sheets.
+
                 <div class="install-code">
-                    <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%2528165%252C205%252C213%252C1%2529&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=15px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%2525&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fneu-ui-cl.netlify.app%252Fcss%252Fcomponents.css%2522%253E%2520%250A"
-  style="width: 100%; height: 125px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2528165%252C205%252C213%252C1%2529&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=15px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%2525&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fneu-ui-cl.netlify.app%252Fcss%252Fcomponents.css%2522%253E%2520%250A"
+                    style="
+                      width: 100%;
+                      height: 125px;
+                      border: 0;
+                      transform: scale(1);
+                      overflow: hidden;
+                    "
+                    sandbox="allow-scripts allow-same-origin"
+                  >
+                  </iframe>
                 </div>
-            </article>
-            <footer class="footer">
-            <div class="prev-comp">
-              <a href="#"></a>
-            </div>
-            <div class="next-comp">
-              <a href="../Colors/colors.html">Colors &gt;</a>
-            </div>
-          </footer>
+
+                <footer class="footer">
+                  <div class="prev-comp">
+                    <a href="#"></a>
+                  </div>
+                  <div class="next-comp">
+                    <a href="../Colors/colors.html">Colors &gt;</a>
+                  </div>
+                </footer>
+
+                <script
+                  src="https://kit.fontawesome.com/d7895d1006.js"
+                  crossorigin="anonymous"
+                ></script>
+                <script src="../../index.js"></script>
+              </head>
+            </p>
+          </article>
         </main>
+      </div>
     </div>
-    </div>
-    <script
-      src="https://kit.fontawesome.com/d7895d1006.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../../index.js"></script>
-</body>
+  </body>
 </html>

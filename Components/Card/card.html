@@ -1,334 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="card.css" />
+    <title>Card | Neu UI</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="card.css" />
-  <title>Card | Neu UI</title>
-</head>
-
-<body>
-  <div class="main-container">
-    <header class="header">
-      <div class="logo">
-        <a href="../../index.html" class="logo-link">
-          <img src="../../assets/Neu UI.png" alt="" />
-        </a>
-      </div>
-      <nav class="links">
-        <ul>
-          <li><a href="#" class="normal-text-shadow">Docs</a></li>
-          <li><a href="#" class="normal-text-shadow">GitHub</a></li>
-          <div class="badge hamburger">
-            <button
-              class="hamburger-btn normal-shadow"
-            >
-            <i class="fas fa-bars"></i>
-            </button>
-          </div>
-        </ul>
-      </nav>
-    </header>
-    <div class="content-container">
-      <aside class="aside">
-        <div class="style-guide side-heading">
-          <a href="/Style Guide/Introduction/introduction.html"
-            >Get Started</a
-          >
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <div class="logo">
+          <a href="../../index.html" class="logo-link">
+            <img src="../../assets/Neu UI.png" alt="" />
+          </a>
         </div>
-        <ul class="sg-list">
-          <li>
-            <a href="../../Style Guide/Introduction/introduction.html"
-              >Introduction</a
-            >
-          </li>
-          <li><a href="../../Style Guide/Colors/colors.html">Colors</a></li>
-          <li>
-            <a href="../../Style Guide/Typography/typography.html"
-              >Typography</a
-            >
-          </li>
-          <li>
-            <a href="../../Style Guide/Conclusion/conclusion.html"
-              >Conclusion</a
-            >
-          </li>
-        </ul>
-        <div class="style-guide side-heading">
-          <a href="/Style Guide/Introduction/introduction.html">Components</a>
-        </div>
-        <ul class="sg-list">
-          <li>
-            <a href="../Avatar/avatar.html">Avatar</a>
-          </li>
-          <li >
-            <a href="../Alert/alert.html">Alert</a>
-          </li>
-          <li><a href="../Badge/badge.html">Badge</a></li>
-          <li>
-            <a href="../Button/button.html">Button</a>
-          </li>
-          <li class="normal-inset-shadow"><a href="../Card/card.html">Card</a></li>
-          <li>
-            <a href="../Image/image.html">Image</a>
-          </li>
-          <li>
-            <a href="../Input/input.html">Input</a>
-          </li>
-          <li>
-            <a href="../Navbar/navbar.html">Navbar</a>
-          </li>
-          <li>
-            <a href="../Ratings/ratings.html">Ratings</a>
-          </li>
-          <li>
-            <a href="../Toast/toast.html">Toast</a>
-          </li>
-          <li>
-            <a href="../Lists/lists.html">Lists</a>
-          </li>
-          <li>
-            <a href="../Modal/modal.html">Modal</a>
-          </li>
-          <li >
-            <a href="../Grid/grid.html">Grid</a>
-          </li>
-        </ul>
-      </aside>
-      <main class="main-content">
-        <article class="card-article">
-          <h1 class="card-heading">Card</h1>
-          <p class="card-content">
-            Cards are surfaces that display content and actions on a single
-            topic. They should be easy to scan for relevant and actionable
-            information. Elements, like text and images, should be placed on
-            them in a way that clearly indicates hierarchy.
-          </p>
-        </article>
-        <div class="divider"></div>
-        <article class="card-article">
-          <h1 class="card-heading">Simple Card</h1>
-          <p class="card-content">
-            Simple Card is the one that contains a title, a descriptive text.
-            To use the Simple Card Component, add card-title and card-text
-            inside a div with class card.
-          </p>
-          <div class="example-div">
-            <!-- Using card-title, card-text inside 'card' class -->
-            <div class="card card-simple-txt normal-shadow">
-              <h2 class="card-title">Iron Man</h2>
-              <p class="card-text">
-                Genius level intellect Proficient scientist and engineer
-                Powered armor suit: Superhuman strength, speed, durability,
-                agility, reflexes, and senses Supersonic flight Energy
-                repulsor and missile projection Regenerative life support
-              </p>
+        <nav class="links">
+          <ul>
+            <li>
+              <a href="https://neu-ui.vercel.app/" class="normal-text-shadow"
+                >Docs</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Husain01/Neu-UI"
+                class="normal-text-shadow"
+                >GitHub</a
+              >
+            </li>
+            <div class="badge hamburger">
+              <button class="hamburger-btn normal-shadow">
+                <i class="fas fa-bars"></i>
+              </button>
             </div>
+          </ul>
+        </nav>
+      </header>
+      <div class="content-container">
+        <aside class="aside">
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html"
+              >Get Started</a
+            >
           </div>
-          <div class="code-snippet">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520card-title%252C%2520card-text%2520inside%2520%27card%27%2520class%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-simple-txt%2520normal-shadow%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EIron%2520Man%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EGenius%2520level%2520intellect%2520Proficient%2520scientist%2520and%2520engineer%2520Powered%2520armor%2520suit%253A%2520Superhuman%2520%2520%2520%2520%2520%2520%2520%2520%2520strength%252C%2520speed%252C%2520durability%252C%2520agility%252C%2520reflexes%252C%2520and%2520senses%2520Supersonic%2520flight%2520Energy%2520repulsor%2520and%2520missile%2520projection%2520%2520%2520Regenerative%2520life%2520support%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-              style="
+          <ul class="sg-list">
+            <li>
+              <a href="../../Style Guide/Introduction/introduction.html"
+                >Introduction</a
+              >
+            </li>
+            <li><a href="../../Style Guide/Colors/colors.html">Colors</a></li>
+            <li>
+              <a href="../../Style Guide/Typography/typography.html"
+                >Typography</a
+              >
+            </li>
+            <li>
+              <a href="../../Style Guide/Conclusion/conclusion.html"
+                >Conclusion</a
+              >
+            </li>
+          </ul>
+          <div class="style-guide side-heading">
+            <a href="/Style Guide/Introduction/introduction.html">Components</a>
+          </div>
+          <ul class="sg-list">
+            <li>
+              <a href="../Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/alert.html">Alert</a>
+            </li>
+            <li><a href="../Badge/badge.html">Badge</a></li>
+            <li>
+              <a href="../Button/button.html">Button</a>
+            </li>
+            <li class="normal-inset-shadow">
+              <a href="../Card/card.html">Card</a>
+            </li>
+            <li>
+              <a href="../Image/image.html">Image</a>
+            </li>
+            <li>
+              <a href="../Input/input.html">Input</a>
+            </li>
+            <li>
+              <a href="../Navbar/navbar.html">Navbar</a>
+            </li>
+            <li>
+              <a href="../Ratings/ratings.html">Ratings</a>
+            </li>
+            <li>
+              <a href="../Toast/toast.html">Toast</a>
+            </li>
+            <li>
+              <a href="../Lists/lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="../Modal/modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="../Grid/grid.html">Grid</a>
+            </li>
+          </ul>
+        </aside>
+        <main class="main-content">
+          <article class="card-article">
+            <h1 class="card-heading">Card</h1>
+            <p class="card-content">
+              Cards are surfaces that display content and actions on a single
+              topic. They should be easy to scan for relevant and actionable
+              information. Elements, like text and images, should be placed on
+              them in a way that clearly indicates hierarchy.
+            </p>
+          </article>
+          <div class="divider"></div>
+          <article class="card-article">
+            <h1 class="card-heading">Simple Card</h1>
+            <p class="card-content">
+              Simple Card is the one that contains a title, a descriptive text.
+              To use the Simple Card Component, add card-title and card-text
+              inside a div with class card.
+            </p>
+            <div class="example-div">
+              <!-- Using card-title, card-text inside 'card' class -->
+              <div class="card card-simple-txt normal-shadow">
+                <h2 class="card-title">Iron Man</h2>
+                <p class="card-text">
+                  Genius level intellect Proficient scientist and engineer
+                  Powered armor suit: Superhuman strength, speed, durability,
+                  agility, reflexes, and senses Supersonic flight Energy
+                  repulsor and missile projection Regenerative life support
+                </p>
+              </div>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520card-title%252C%2520card-text%2520inside%2520%27card%27%2520class%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-simple-txt%2520normal-shadow%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EIron%2520Man%253C%252Fh2%253E%250A%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EGenius%2520level%2520intellect%2520Proficient%2520scientist%2520and%2520engineer%2520Powered%2520armor%2520suit%253A%2520Superhuman%2520%2520%2520%2520%2520%2520%2520%2520%2520strength%252C%2520speed%252C%2520durability%252C%2520agility%252C%2520reflexes%252C%2520and%2520senses%2520Supersonic%2520flight%2520Energy%2520repulsor%2520and%2520missile%2520projection%2520%2520%2520Regenerative%2520life%2520support%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+                style="
                   width: 100%;
                   height: 208px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                " sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="card-article">
-          <h1 class="card-heading">Dismissible Card</h1>
-          <p class="card-content">
-            Dismissable Card can be dismissed with a cross on the top corner.
-          </p>
-          <div class="example-div">
-            <!-- Using cross inside 'card-header' class -->
-            <div class="card card-simple-txt normal-shadow">
-              <div class="card-header">
-                <h2 class="card-title">Iron Man</h2>
-                <button class="cross normal-shadow">
-                  <i class="fas fa-times"></i>
-                </button>
-                </button>
-              </div>
-              <p class="card-text">
-                Genius level intellect Proficient scientist and engineer
-                Powered armor suit: Superhuman strength, speed, durability,
-                agility, reflexes, and senses Supersonic flight Energy
-                repulsor and missile projection Regenerative life support
-              </p>
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-          </div>
-          <div class="code-snippet">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520cross%2520inside%2520%27card-header%27%2520class%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-simple-txt%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2520%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EIron%2520Man%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522cross%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520Genius%2520level%2520intellect%2520Proficient%2520scientist%2520and%2520engineer%250A%2520%2520%2520%2520Powered%2520armor%2520suit%253A%2520Superhuman%2520strength%252C%2520speed%252C%2520durability%252C%250A%2520%2520%2520%2520agility%252C%2520reflexes%252C%2520and%2520senses%2520Supersonic%2520flight%2520Energy%250A%2520%2520%2520%2520repulsor%2520and%2520missile%2520projection%2520Regenerative%2520life%2520support%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-              style="
+          </article>
+          <article class="card-article">
+            <h1 class="card-heading">Dismissible Card</h1>
+            <p class="card-content">
+              Dismissable Card can be dismissed with a cross on the top corner.
+            </p>
+            <div class="example-div">
+              <!-- Using cross inside 'card-header' class -->
+              <div class="card card-simple-txt normal-shadow">
+                <div class="card-header">
+                  <h2 class="card-title">Iron Man</h2>
+                  <button class="cross normal-shadow">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+                <p class="card-text">
+                  Genius level intellect Proficient scientist and engineer
+                  Powered armor suit: Superhuman strength, speed, durability,
+                  agility, reflexes, and senses Supersonic flight Energy
+                  repulsor and missile projection Regenerative life support
+                </p>
+              </div>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Using%2520cross%2520inside%2520%27card-header%27%2520class%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-simple-txt%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2520%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EIron%2520Man%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522cross%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520Genius%2520level%2520intellect%2520Proficient%2520scientist%2520and%2520engineer%250A%2520%2520%2520%2520Powered%2520armor%2520suit%253A%2520Superhuman%2520strength%252C%2520speed%252C%2520durability%252C%250A%2520%2520%2520%2520agility%252C%2520reflexes%252C%2520and%2520senses%2520Supersonic%2520flight%2520Energy%250A%2520%2520%2520%2520repulsor%2520and%2520missile%2520projection%2520Regenerative%2520life%2520support%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+                style="
                   width: 100%;
                   height: 315px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                " sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="card-article">
-          <h1 class="card-heading">E-Com Card</h1>
-          <p class="card-content">
-            eCommerce Card is used to display the products details i.e.,
-            Product shot, Name, Type, Fixed badge, Price, Discount and stock.
-          </p>
-          <div class="example-div">
-            <!-- For product with image background, Use this Card  -->
-            <div class="card card-ecom normal-shadow">
-              <div class="product-img product-img-fill">
-                <img src="../../assets/product-2.jpg" alt="" />
-              </div>
-              <div class="badge-and-wishlist">
-                <div class="card-badge">New</div>
-                <button class="wishlist normal-shadow"><i class="far fa-heart"></i></button>
-              </div>
-              <div class="card-footer">
-                <div class="product-content">
-                  <h3 class="product-title">Apple Watch Series 7</h3>
-                  <p class="product-desc">
-                    Space Black Titanium Case with Leather Link
-                  </p>
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <article class="card-article">
+            <h1 class="card-heading">E-Com Card</h1>
+            <p class="card-content">
+              eCommerce Card is used to display the products details i.e.,
+              Product shot, Name, Type, Fixed badge, Price, Discount and stock.
+            </p>
+            <div class="example-div">
+              <!-- For product with image background, Use this Card  -->
+              <div class="card card-ecom normal-shadow">
+                <div class="product-img product-img-fill">
+                  <img src="../../assets/product-2.jpg" alt="" />
                 </div>
-                <div class="btn-footer">
-                  <span class="price">$799.99</span>
-                  <button class="cart normal-shadow">
-                    <i class="fas fa-cart-plus"></i>Add to Cart
+                <div class="badge-and-wishlist">
+                  <div class="card-badge">New</div>
+                  <button class="wishlist normal-shadow">
+                    <i class="far fa-heart"></i>
                   </button>
                 </div>
-              </div>
-            </div>
-            <!-- Product with Transparent image, Use this Card  -->
-            <div class="card card-ecom normal-shadow">
-              <div class="product-img">
-                <img src="../../assets/product.png" alt="" />
-                <div class="card-alt-badge normal-shadow">New</div>
-                <button class="alt-wishlist normal-shadow"><i class="far fa-heart"></i></button>
-              </div>
-              <div class="card-footer">
-                <div class="product-content">
-                  <h3 class="product-title">Apple Watch Series 7</h3>
-                  <p class="product-desc">
-                    Space Black Titanium Case with Leather Link
-                  </p>
-                </div>
-                <div class="btn-footer">
-                  <span class="price">$799.99</span>
-                  <button class="cart normal-shadow">
-                    <i class="fas fa-cart-plus"></i>Add to Cart
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-snippet">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520For%2520product%2520with%2520image%2520background%252C%2520Use%2520this%2520Card%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2520product-img-fill%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct-2.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-and-wishlist%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2522%253EApple%2520Watch%2520Series%25207%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Space%2520Black%2520Titanium%2520Case%2520with%2520Leather%2520Link%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Product%2520with%2520Transparent%2520image%252C%2520Use%2520this%2520Card%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct.png%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-alt-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alt-wishlist%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2522%253EApple%2520Watch%2520Series%25207%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Space%2520Black%2520Titanium%2520Case%2520with%2520Leather%2520Link%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-              style="width: 100%; height: 908px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="card-article">
-          <h1 class="card-title">Text Overlay Card</h1>
-          <p class="card-content">Text Overlay Card contains text over image.
-          </p>
-          <div class="example-div">
-            <!-- Text Overlay Card  -->
-            <div class="card card-ecom normal-shadow">
-              <!-- Add the text inside the product-img div  -->
-              <div class="product-img product-img-fill">
-                <img src="../../assets/product-3.jpg" alt="" />
-                <h3 class="product-title product-title-overlay">Airpod Max</h3>
-              </div>
-              <div class="badge-and-wishlist">
-                <div class="card-badge">New</div>
-                <button class="wishlist normal-shadow"><i class="far fa-heart"></i></button>
-              </div>
-              <div class="card-footer">
-                <div class="product-content">
-
-                  <p class="product-desc">
-                    Designed for an exceptional fit
-                  </p>
-                </div>
-                <div class="btn-footer">
-                  <span class="price">$799.99</span>
-                  <button class="cart normal-shadow">
-                    <i class="fas fa-cart-plus"></i>Add to Cart
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="code-snippet">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Overlay%2520Card%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520normal-shadow%2522%253E%250A%2520%2520%253C%21--%2520Add%2520the%2520text%2520inside%2520the%2520product-img%2520div%2520%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2520product-img-fill%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct-3.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2520product-title-overlay%2522%253EAirpod%2520Max%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-and-wishlist%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Designed%2520for%2520an%2520exceptional%2520fit%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-              style="width: 100%; height: 529px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </article>
-        <article class="card-article">
-          <h1 class="card-title">Horizontal Card</h1>
-          <p class="card-content">Horizontal Cards are used to showcase products in a landscape orientation.</p>
-          <div class="example-div">
-            <!-- Use 'card-ecom-horizontal' class to make a Horizontal card -->
-            <div class="card card-ecom card-ecom-horizontal normal-shadow">
-              <div class="product-img product-img-fill product-img-horizontal">
-                <img src="../../assets/product-2.jpg" alt="" />
-              </div>
-              <div class="card-footer card-footer-hr">
-                <div class="product-content product-content-hr">
-                  <!-- Add 'product-header' class to div  -->
-                  <div class="product-header">
-                    <h3 class="product-title product-title-hr">Apple Watch Series 7</h3>
-                    <button class="wishlist wishlist-horizontal normal-shadow"><i class="far fa-heart"></i></button>
+                <div class="card-footer">
+                  <div class="product-content">
+                    <h3 class="product-title">Apple Watch Series 7</h3>
+                    <p class="product-desc">
+                      Space Black Titanium Case with Leather Link
+                    </p>
                   </div>
-                  <div class="card-badge card-badge-hr">New</div>
-                  <p class="product-desc product-desc-hr">
-                    Space Black Titanium Case with Leather Link
-                  </p>
+                  <div class="btn-footer">
+                    <span class="price">$799.99</span>
+                    <button class="cart normal-shadow">
+                      <i class="fas fa-cart-plus"></i>Add to Cart
+                    </button>
+                  </div>
                 </div>
-                <div class="btn-footer ">
-                  <span class="price">$799.99</span>
-                  <button class="cart cart-hr normal-shadow">
-                    <i class="fas fa-cart-plus"></i>Add to Cart
+              </div>
+              <!-- Product with Transparent image, Use this Card  -->
+              <div class="card card-ecom normal-shadow">
+                <div class="product-img">
+                  <img src="../../assets/product.png" alt="" />
+                  <div class="card-alt-badge normal-shadow">New</div>
+                  <button class="alt-wishlist normal-shadow">
+                    <i class="far fa-heart"></i>
                   </button>
+                </div>
+                <div class="card-footer">
+                  <div class="product-content">
+                    <h3 class="product-title">Apple Watch Series 7</h3>
+                    <p class="product-desc">
+                      Space Black Titanium Case with Leather Link
+                    </p>
+                  </div>
+                  <div class="btn-footer">
+                    <span class="price">$799.99</span>
+                    <button class="cart normal-shadow">
+                      <i class="fas fa-cart-plus"></i>Add to Cart
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="code-snippet">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Use%2520%27card-ecom-horizontal%27%2520class%2520to%2520make%2520a%2520Horizontal%2520card%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520card-ecom-horizontal%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2520product-img-fill%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct-2.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%21--%2520Add%2520%27product-header%27%2520class%2520to%2520div%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2522%253EApple%2520Watch%2520Series%25207%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520wishlist-horizontal%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Space%2520Black%2520Titanium%2520Case%2520with%2520Leather%2520Link%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-              style="width: 100%; height: 531px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-          <footer class="footer">
-            <div class="prev-comp">
-              <a href="../Button/button.html">&lt; Button</a>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520For%2520product%2520with%2520image%2520background%252C%2520Use%2520this%2520Card%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2520product-img-fill%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct-2.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-and-wishlist%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2522%253EApple%2520Watch%2520Series%25207%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Space%2520Black%2520Titanium%2520Case%2520with%2520Leather%2520Link%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Product%2520with%2520Transparent%2520image%252C%2520Use%2520this%2520Card%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct.png%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-alt-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alt-wishlist%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2522%253EApple%2520Watch%2520Series%25207%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Space%2520Black%2520Titanium%2520Case%2520with%2520Leather%2520Link%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: 908px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-            <div class="next-comp">
-              <a href="../Image/image.html">Image &gt;</a>
+          </article>
+          <article class="card-article">
+            <h1 class="card-title">Text Overlay Card</h1>
+            <p class="card-content">
+              Text Overlay Card contains text over image.
+            </p>
+            <div class="example-div">
+              <!-- Text Overlay Card  -->
+              <div class="card card-ecom normal-shadow">
+                <!-- Add the text inside the product-img div  -->
+                <div class="product-img product-img-fill">
+                  <img src="../../assets/product-3.jpg" alt="" />
+                  <h3 class="product-title product-title-overlay">
+                    Airpod Max
+                  </h3>
+                </div>
+                <div class="badge-and-wishlist">
+                  <div class="card-badge">New</div>
+                  <button class="wishlist normal-shadow">
+                    <i class="far fa-heart"></i>
+                  </button>
+                </div>
+                <div class="card-footer">
+                  <div class="product-content">
+                    <p class="product-desc">Designed for an exceptional fit</p>
+                  </div>
+                  <div class="btn-footer">
+                    <span class="price">$799.99</span>
+                    <button class="cart normal-shadow">
+                      <i class="fas fa-cart-plus"></i>Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-          </footer>
-        </article>
-      </main>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Text%2520Overlay%2520Card%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520normal-shadow%2522%253E%250A%2520%2520%253C%21--%2520Add%2520the%2520text%2520inside%2520the%2520product-img%2520div%2520%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2520product-img-fill%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct-3.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2520product-title-overlay%2522%253EAirpod%2520Max%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-and-wishlist%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Designed%2520for%2520an%2520exceptional%2520fit%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 529px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+          <article class="card-article">
+            <h1 class="card-title">Horizontal Card</h1>
+            <p class="card-content">
+              Horizontal Cards are used to showcase products in a landscape
+              orientation.
+            </p>
+            <div class="example-div">
+              <!-- Use 'card-ecom-horizontal' class to make a Horizontal card -->
+              <div class="card card-ecom card-ecom-horizontal normal-shadow">
+                <div
+                  class="product-img product-img-fill product-img-horizontal"
+                >
+                  <img src="../../assets/product-2.jpg" alt="" />
+                </div>
+                <div class="card-footer card-footer-hr">
+                  <div class="product-content product-content-hr">
+                    <!-- Add 'product-header' class to div  -->
+                    <div class="product-header">
+                      <h3 class="product-title product-title-hr">
+                        Apple Watch Series 7
+                      </h3>
+                      <button
+                        class="wishlist wishlist-horizontal normal-shadow"
+                      >
+                        <i class="far fa-heart"></i>
+                      </button>
+                    </div>
+                    <div class="card-badge card-badge-hr">New</div>
+                    <p class="product-desc product-desc-hr">
+                      Space Black Titanium Case with Leather Link
+                    </p>
+                  </div>
+                  <div class="btn-footer">
+                    <span class="price">$799.99</span>
+                    <button class="cart cart-hr normal-shadow">
+                      <i class="fas fa-cart-plus"></i>Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code-snippet">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28165%2C205%2C213%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=743.1000002622604&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=3px&ph=25px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Use%2520%27card-ecom-horizontal%27%2520class%2520to%2520make%2520a%2520Horizontal%2520card%2520--%253E%250A%253Cdiv%2520class%253D%2522card%2520card-ecom%2520card-ecom-horizontal%2520normal-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522product-img%2520product-img-fill%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fproduct-2.jpg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%21--%2520Add%2520%27product-header%27%2520class%2520to%2520div%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522product-title%2522%253EApple%2520Watch%2520Series%25207%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520wishlist-horizontal%2520normal-shadow%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Space%2520Black%2520Titanium%2520Case%2520with%2520Leather%2520Link%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%2524799.99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart%2520normal-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 100%;
+                  height: 531px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <footer class="footer">
+              <div class="prev-comp">
+                <a href="../Button/button.html">&lt; Button</a>
+              </div>
+              <div class="next-comp">
+                <a href="../Image/image.html">Image &gt;</a>
+              </div>
+            </footer>
+          </article>
+        </main>
+      </div>
     </div>
-  </div>
-  <script src="https://kit.fontawesome.com/d7895d1006.js" crossorigin="anonymous"></script>
-  <script src="../../index.js"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/d7895d1006.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../index.js"></script>
+  </body>
 </html>
